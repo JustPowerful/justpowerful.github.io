@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+}
+
+.letterContainer {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+}
+
+.nameLetter {
+  font-size: 500px;
+  font-weight: 200;
+  font-family: "maharlika";
+}
+
+.firstLetter {
+  position: relative;
+  left: 180px;
+  top: -150px;
+  color: #545454;
+}
+
+.secondLetter {
+  position: relative;
+  left: 20px;
+  top: -420px;
+  color: #c7b299;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-family: "maharlika";
+}
+
+.nameline {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.headerdescription {
+  font-family: "garet";
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.descContainer {
+  position: absolute;
+  top: 220px;
+  right: 100px;
+}
+
+.headerContainer {
+  position: relative;
+  top: 50px;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.linksContainer a {
+  font-size: 80px;
+  text-decoration: none;
+  color: #6b6053;
+}
+.linksContainer a:hover {
+  color: #9c8c79;
+}
+
+.mobileHeader {
+  display: none !important;
+  height: 100vh;
+  /* background-image: url("../images/mobilecover.png");
+  background-size: contain; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1150px) {
+  /* Hiding desktop header */
+  .desktopHeader {
+    display: none;
+  }
+  /* And displaying mobile header */
+  .mobileHeader {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .name {
+    font-size: 22px;
+  }
+
+  .headerdescription {
+    font-size: 11px;
+  }
+
+  .linksContainer a {
+    font-size: 40px;
+  }
+}
+
+.mainPageLink {
+  font-family: "garet";
+  margin-top: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  background-color: #6b6053;
+  color: white;
+  border-radius: 10px;
+}
+
+.mainPageLink:hover {
+  background-color: #9c8c79;
+}
