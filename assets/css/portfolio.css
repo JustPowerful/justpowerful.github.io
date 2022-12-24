@@ -1,0 +1,163 @@
+.headerContainer {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.mobileHeader {
+  /* background-image: url("../images/mobilecover.png");
+    background-size: contain; */
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1,
+small {
+  font-family: "maharlika";
+  text-align: center;
+  color: #3c362f;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 10px;
+}
+
+h2,
+h3 {
+  font-family: "garet";
+}
+
+h4 {
+  font-weight: 200;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.linksContainer a {
+  font-size: 80px;
+  text-decoration: none;
+  color: #6b6053;
+}
+.linksContainer a:hover {
+  color: #9c8c79;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-family: "maharlika";
+}
+
+.nameline {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-family: "maharlika";
+}
+
+.headerdescription {
+  font-family: "garet";
+  font-weight: 200;
+  font-size: 22px;
+}
+
+@media (min-width: 1151px) {
+  .mobileHeader {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 1150px) {
+  .mobileHeader {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 28px;
+  }
+  .headerdescription {
+    font-size: 11px;
+  }
+
+  .linksContainer a {
+    font-size: 30px;
+  }
+
+  .nameline {
+    display: none;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.worksContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work {
+  font-family: "garet";
+  width: 250px;
+  margin: 15px;
+  text-align: center;
+}
+
+.work img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.experienceContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.experience {
+  font-family: "garet";
+  width: 150px;
+  margin: 15px;
+  text-align: center;
+}
+
+.experience img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px !important;
+}
+
+.contactInformations {
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3c362f;
+  color: white !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactInformations h1,
+.contactInformations small {
+  color: wheat;
+}

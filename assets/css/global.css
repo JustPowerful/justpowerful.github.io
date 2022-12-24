@@ -20,3 +20,22 @@
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "garet";
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #6b6053;
+}

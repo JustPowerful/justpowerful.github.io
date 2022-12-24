@@ -90,6 +90,11 @@ body {
   /* And displaying mobile header */
   .mobileHeader {
     display: flex !important;
+    flex-direction: column;
+  }
+  .mainPageLink {
+    font-size: 22px;
+    width: 95%;
   }
 }
 
@@ -105,6 +110,9 @@ body {
   .linksContainer a {
     font-size: 40px;
   }
+  .mainPageLink {
+    font-size: 11px;
+  }
 }
 
 .mainPageLink {
@@ -115,11 +123,13 @@ body {
   padding: 15px;
   display: block;
   text-decoration: none;
-  background-color: #6b6053;
-  color: white;
-  border-radius: 10px;
+  /* background-color: #6b6053; */
+  border: 2px solid #6b6053;
+  color: #6b6053;
+  /* border-radius: 10px; */
 }
 
 .mainPageLink:hover {
-  background-color: #9c8c79;
+  background-color: #6b6053;
+  color: white;
 }
